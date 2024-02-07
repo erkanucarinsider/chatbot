@@ -9,7 +9,7 @@ client = WebClient(token=token)
 
 
 def send_message(channel_id: str, message=None, attachments=None, thread_ts=None, blocks=None, icon_url=None,
-                 user_name="eevee", unfurl_links=None) -> SlackResponse:
+                 user_name="chatbot", unfurl_links=None) -> SlackResponse:
     """
     Sends a message to a specified Slack channel using the Slack API `chat_postMessage` method and
     Returns a dictionary representing the Slack API response
